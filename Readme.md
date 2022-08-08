@@ -15,8 +15,7 @@ Os usuários devem ser capazes de:
 
 
 ### Design mobile:
-
-
+![mobile-design](https://user-images.githubusercontent.com/96561261/183446505-237feee8-f4d9-4676-80bf-b0da3e1ec26a.jpg)
 
 # Como foi a elaboração do projeto
 
