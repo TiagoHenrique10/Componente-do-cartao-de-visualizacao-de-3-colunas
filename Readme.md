@@ -11,7 +11,7 @@ Os usuários devem ser capazes de:
 * Veja o layout ideal dependendo do tamanho da tela do dispositivo
 * Veja os estados de hover e foco para elementos interativos
 ### Design desktop:
-
+![desktop-design](https://user-images.githubusercontent.com/96561261/183446329-3324d814-0825-43b7-8d30-9c5bb929d4b3.jpg)
 
 
 ### Design mobile:
