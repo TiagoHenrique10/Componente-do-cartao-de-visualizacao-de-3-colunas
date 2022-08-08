@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2? família=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Big+Shoulders+Display:wght@700&display=swap');
+
+/* Zerando CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color:hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando cards */
+.cartoes {   
+    max-width: 960px;
+    margin: 0 auto;   
+    display: flex;
+    align-items: center;
+    margin: 10rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-left {
+    padding: 40px; 
+    background: hsl(31, 77%, 52%);    
+}
+   
+.card-center {
+    padding: 40px;  
+    background: hsl(184, 100%, 22%);
+
+}
+
+.card-right {
+    padding: 40px;   
+    background: hsl(179, 100%, 13%);
+
+}
+
+/* Estilizando descrição dos cards e titulo */
+
+h1 {
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding: 30px 0 30px;
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+   
+}
+
+.descricao-left, .descricao-right, .descricao-center  {
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: "Lexend deca", sans-serif;
+    color:hsl(0, 0%, 95%);
+
+}
+
+/*Estilizando boto~es dos card */ 
+
+.btn-left, .btn-right, .btn-center {
+    padding: 13px 27px;
+    border-radius: 26px;
+    text-decoration: none;
+    font-family: 'Lexend deca', sans-serif;
+    font-size: 15px;
+    color:hsl(31, 77%, 52%);
+    border: none;
+    cursor: pointer;  
+    text-decoration: none;
+    margin-top: 60px; 
+    display:inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn-center {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-right {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+    transition: .5s ease-in-out;
+}
+
+/* Estilizando Footer */
+
+.rodape {
+    position:absolute;
+    bottom: 0px;
+}
+ .atribuicao {     
+    padding: 10px;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.atribuicao a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Aplicaçao de responsividade */
+
+@media only screen and (min-width:375px) and (max-width:1440px) {
+    .cartoes {max-width: 800px;}
+}
+
+@media screen and (max-width:960px) {
+    .cartoes {
+        min-width: 90%;
+        display: flex;
+        flex-direction: column;      
+    }
+    footer {
+        display: none;      
+    }
+
+}
+
+
+
